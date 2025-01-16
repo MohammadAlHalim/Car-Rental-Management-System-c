@@ -44,4 +44,42 @@ This system provides a structured and interactive experience for managing car re
 ### Installation
 1. Clone this repository:
    ```bash
-   git clone https://github.com/username/WanderWheels.git
+   git clone https://github.com/MohammadAlHalim/Car-Rental-Management-System-c
+
+2. Navigate to the project directory:
+ cd WanderWheels
+3.Compile the program using a C compiler:
+gcc -o wanderwheels wanderwheels.c
+
+### Usage
+1.Run the executable:
+./wanderwheels
+2.Follow the on-screen prompts:
+Select from the main menu options:
+--1: Display available cars.
+--2: Rent a car.
+--3: Return a car.
+--4: Exit the program.
+-View car specifications or proceed with renting or returning cars as desired.
+
+### Code Structure
+-Structures:
+--struct car: Stores car ID, name, seating capacity, and price.
+--struct rented_car: Tracks rented cars.
+--struct car_specs: Holds detailed specifications for each car.
+-Functions:
+--printHeader1, printCar1, printFooter1: Display car list table.
+--printHeader2, printCar2, printFooter2: Display car specifications table.
+--Main function: Handles menu navigation and program logic.
+
+### Contributing
+Contributions are welcome! Follow these steps:
+
+-Fork the project.
+1.Create a new branch (git checkout -b feature/YourFeature).
+2.Commit your changes (git commit -m 'Add a new feature').
+3.Push to the branch (git push origin feature/YourFeature).
+4.Open a pull request.
+
+### License
+This project is licensed under the MIT License.
